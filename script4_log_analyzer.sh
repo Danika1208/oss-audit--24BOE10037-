@@ -3,7 +3,7 @@
 # Script 4: Log File Analyzer
 # ============================================
 
-# Student Details (must be in OUTPUT)
+# Student Details 
 echo "===== Student Details ====="
 echo "Name: Danika Puri "
 echo "Roll No: 24BOE10037"
@@ -21,7 +21,7 @@ if [ ! -f "$LOGFILE" ]; then
     exit 1
 fi
 
-# 🔁 Do-while style retry if file is empty
+# Do-while style retry if file is empty
 ATTEMPT=1
 
 while true; do
@@ -50,7 +50,7 @@ done < "$LOGFILE"
 echo ""
 echo "Keyword '$KEYWORD' found $COUNT times in $LOGFILE"
 
-# 🔍 Show last 5 matching lines
+# Show last 5 matching lines
 echo ""
 echo "Last 5 matching lines:"
 grep -i "$KEYWORD" "$LOGFILE" | tail -n 5
