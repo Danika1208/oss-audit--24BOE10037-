@@ -1,15 +1,20 @@
-# Open Source Software (OSS) Audit Project
+#  Open Source Software (OSS) Audit Project
 
 ## Overview
-This project is a part of the OSS Capstone assignment. It demonstrates the use of Linux shell scripting to analyze system information, inspect software packages, audit directories, analyze log files, and generate an open-source manifesto. This project demonstrates practical usage of open-source tools and Linux scripting. It highlights the importance of automation, transparency, and collaboration in open-source ecosystems.
+This project is a part of the OSS Capstone assignment. It demonstrates the use of Linux shell scripting to analyze system information, inspect software packages, audit directories, analyze log files, and generate an open-source manifesto.This project demonstrates practical usage of open-source tools and Linux scripting. It highlights the importance of automation, transparency, and collaboration in open-source ecosystems.
 
 All scripts were executed in a Linux environment using GitHub Codespaces.
+
+  
+
+
 
 ## Environment Used
 - Platform: GitHub Codespaces  
 - OS: Linux (Ubuntu-based)  
 - Language: Bash Scripting  
 - Software Focus: Python  
+
 
 
 ## Project Structure
@@ -27,10 +32,9 @@ All scripts were executed in a Linux environment using GitHub Codespaces.
 - Log analysis techniques
 - Open-source philosophy
 
-
 ## Scripts Description
 
-###  Script 1: System Identity Report
+### Script 1: System Identity Report
 - Displays system information
 - Shows current user, date, and uptime
 - Prints student details in output
@@ -52,7 +56,7 @@ All scripts were executed in a Linux environment using GitHub Codespaces.
 
 ---
 
-### Script 4: Log File Analyzer
+###  Script 4: Log File Analyzer
 - Analyzes log files for a keyword (default: "error")
 - Counts occurrences
 - Displays last 5 matching lines
@@ -60,7 +64,7 @@ All scripts were executed in a Linux environment using GitHub Codespaces.
 
 ---
 
-### Script 5: Open Source Manifesto Generator
+###  Script 5: Open Source Manifesto Generator
 - Takes user input
 - Generates a personalized manifesto
 - Saves output to a file
@@ -73,8 +77,9 @@ All scripts were executed in a Linux environment using GitHub Codespaces.
 Use the following commands in terminal:
 
 ```bash
-- bash script1_system_info.sh
-- bash script2_package_inspector.sh
-- bash script3_disk_auditor.sh
-- bash script4_log_analyzer.sh /var/log/dpkg.log
-- bash script5_manifesto.sh
+bash script1_system_info.sh
+bash script2_package_inspector.sh
+bash script3_disk_auditor.sh
+bash script4_log_analyzer.sh /var/log/dpkg.log
+bash script5_manifesto.sh
+
