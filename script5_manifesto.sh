@@ -3,7 +3,7 @@
 # Script 5: Open Source Manifesto Generator
 # ============================================
 
-# Student Details (must be in OUTPUT)
+# Student Details 
 echo "===== Student Details ====="
 echo "Name: Danika Puri"
 echo "Roll No: 24BOE10037"
