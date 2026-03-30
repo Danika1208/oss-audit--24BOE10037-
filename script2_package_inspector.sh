@@ -3,13 +3,13 @@
 # Script 2: FOSS Package Inspector
 # ============================================
 
-# Student Details (must be shown in output)
+# Student Details 
 echo "===== Student Details ====="
 echo "Name: Danika Puri"
 echo "Roll No: 24BOE10037"
 echo ""
 
-# Define package (change this if needed)
+# Define package
 PACKAGE="python3"
 
 echo "===== Package Inspection ====="
