@@ -3,7 +3,7 @@
 # Script 3: Disk and Permission Auditor
 # ============================================
 
-# Student Details (must be in OUTPUT)
+# Student Details 
 echo "===== Student Details ====="
 echo "Name: Danika Puri"
 echo "Roll No: 24BOE10037"
@@ -12,7 +12,7 @@ echo ""
 echo "===== Directory Audit Report ====="
 echo "----------------------------------"
 
-# Directories to audit (given in assignment)
+# Directories to audit 
 DIRS=("/etc" "/var/log" "/home" "/usr/bin" "/tmp")
 
 # Loop through directories
@@ -39,7 +39,7 @@ done
 echo ""
 echo "===== Python Configuration Directory Check ====="
 
-# Check Python config directories (extension part)
+# Check Python config directories 
 CONFIG_DIRS=("/etc/python3" "/usr/lib/python3" "$HOME/.local/lib")
 
 for CONF in "${CONFIG_DIRS[@]}"; do
