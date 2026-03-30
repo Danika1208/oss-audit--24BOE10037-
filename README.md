@@ -1,7 +1,7 @@
 # Open Source Software (OSS) Audit Project
 
 ## Overview
-This project is a part of the OSS Capstone assignment. It demonstrates the use of Linux shell scripting to analyze system information, inspect software packages, audit directories, analyze log files, and generate an open-source manifesto.
+This project is a part of the OSS Capstone assignment. It demonstrates the use of Linux shell scripting to analyze system information, inspect software packages, audit directories, analyze log files, and generate an open-source manifesto. This project demonstrates practical usage of open-source tools and Linux scripting. It highlights the importance of automation, transparency, and collaboration in open-source ecosystems.
 
 All scripts were executed in a Linux environment using GitHub Codespaces.
 
@@ -78,5 +78,3 @@ Use the following commands in terminal:
 - bash script3_disk_auditor.sh
 - bash script4_log_analyzer.sh /var/log/dpkg.log
 - bash script5_manifesto.sh
-
-This project demonstrates practical usage of open-source tools and Linux scripting. It highlights the importance of automation, transparency, and collaboration in open-source ecosystems.
